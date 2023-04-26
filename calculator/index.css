@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+.calculator {
+  padding: 3px;
+  border-radius: 1em;
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  background-color: #191b28;
+}
+
+.display-box {
+  font-family: "Orbitron", sans-serif;
+  background-color: #dcdbe1;
+  border: solid black 0px;
+  color: black;
+  border-radius: 5px;
+  width: 135%;
+  height: 50%;
+  font-size: medium;
+}
+
+#btn {
+  background-color: orange;
+}
+#cl {
+  background-color: orange;
+}
+#mod {
+  background-color: #0fb1f7;
+}
+#back {
+  background-color: orange;
+}
+#di {
+  background-color: #0fb1f7;
+}
+#mult {
+  background-color: #0fb1f7;
+}
+#sub {
+  background-color: #0fb1f7;
+}
+#add {
+  background-color: #0fb1f7;
+}
+#fa {
+  background-color: #0fb1f7;
+}
+#ex {
+  background-color: #0fb1f7;
+}
+#sqrt {
+  background-color: #0fb1f7;
+}
+#pi {
+  background-color: #0fb1f7;
+}
+#ei {
+  background-color: #0fb1f7;
+}
+#lg {
+  background-color: #0fb1f7;
+}
+#ln {
+  background-color: #0fb1f7;
+}
+#fp {
+  background-color: #0fb1f7;
+}
+#lp {
+  background-color: #0fb1f7;
+}
+#in {
+  background-color: #0fb1f7;
+}
+#sin {
+  color: red;
+  background-color: antiquewhite;
+}
+#cos {
+  color: red;
+  background-color: antiquewhite;
+}
+#tan {
+  color: red;
+  background-color: antiquewhite;
+}
+#rad {
+  color: red;
+  background-color: antiquewhite;
+}
+#deg {
+  color: red;
+  background-color: antiquewhite;
+}
+
+input[type="button"] {
+  font-family: "Orbitron", sans-serif;
+  background-color: #64278f;
+  color: white;
+  border: solid black 0px;
+  width: 92%;
+  border-radius: 11px;
+  height: 75%;
+  outline: none;
+  box-shadow: 3px 2px 2px 0px;
+}
+
+input:active[type="button"] {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 50px 50px 50px #c1c1c1;
+  -moz-box-shadow: inset 50px 50px 20px #c1c1c1;
+  box-shadow: inset 50px 50px 50px #c1c1c1;
+}
